@@ -1,0 +1,12 @@
+#element-identifier {
+    all: initial;
+    font: 12px Arial;
+    color: #fff;
+}
+
+#element-identifier::shadow #element-identifier-shade {
+    position: absolute;
+    z-index: 9999999999999999999999;
+    background-color: rgba(42, 134, 219, 0.42);
+    pointer-events: none;
+}

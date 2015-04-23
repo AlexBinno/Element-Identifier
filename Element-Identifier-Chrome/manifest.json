@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "Element-Identifier",
+	"description": "Web browser extension for identifying elements on an web page",
+	"version": "0.0.1",
+	"background": {
+		"scripts": [
+			"js/background.js"
+		],
+		"persistent": false
+	},
+	"browser_action": {
+		"default_icon": "img/element-identifier19.png",
+		"default_title": "Element-Identifier"
+	},
+	"icons": {
+		"19": "img/element-identifier19.png",
+		"128": "img/element-identifier128.png"
+	},
+	"web_accessible_resources": ["img/loadinggif.GIF", "img/496.GIF", "img/725.GIF", "img/7252.GIF", "img/7253.GIF"],
+	"permissions": ["tabs", "http://*/*", "https://*/*"],
+	"update_url": "http://clients2.google.com/service/update2/crx"
+}
